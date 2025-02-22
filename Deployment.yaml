@@ -16,6 +16,6 @@ spec:
         # Secret for IBM Cloud Container Registry
       containers:
       - name: simple-todo-app
-        image: monikaog/simple-todo-app:latest  # Docker Image
+        image: gshreedevi/simple-todo-app:latest  # Docker Image
         ports:
         - containerPort: 80  # Port inside the container 
